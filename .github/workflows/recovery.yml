@@ -13,7 +13,7 @@ on:
   workflow_dispatch:
 
 env:
-  MANIFEST: git@https://github.com/minimal-manifest-twrp/platform_manifest_twrp_aosp
+  MANIFEST: git@github.com:minimal-manifest-twrp/platform_manifest_twrp_aosp.git -b twrp-12.1
   DEVICE: sapphiren
   DT_LINK: https://github.com/twrpdtgen/android_device_xiaomi_sapphiren/tree/sapphiren_eea-user-13-TKQ1.221114.001-V14.0.3.0.TNHEUXM-release-keys
   DT_PATH: device/xiaomi/sapphiren
